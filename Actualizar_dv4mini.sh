@@ -3,6 +3,7 @@ clear
 while true
 do
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
+#SV106=$(awk "NR==1" /home/pi/.config/autostart/version)
 #Colores
 ROJO="\033[1;31m"
 VERDE="\033[1;32m"
@@ -38,7 +39,7 @@ clear
                         [sS]* ) echo ""
                         echo "<<<<<<<< ACTUALIZANDO DV4MINI >>>>>>>>>"
                         sudo rm -r /home/pi/IMAGEN-A111/DV4MINI/
-                        cd /home/pi/IMAGEN-A111
+                        cd /home/pi/V106
                         git clone http://github.com/ea3eiz/DV4MINI
                         sudo rm -r /home/pi/dv4mini
                         sudo rm /usr/bin/dv_serial
@@ -73,7 +74,7 @@ clear
                         [sS]* ) echo ""
                         echo ">>>>>>>>> ACTUALIZANDO >>>>>>>>"
                         sudo rm -r /home/pi/IMAGEN-A111/DV4MINI/
-                        cd /home/pi/IMAGEN-A111
+                        cd /home/pi/V106
                         git clone http://github.com/ea3eiz/DV4MINI
                         sudo rm -r /home/pi/dv4mini
                         sudo rm /usr/bin/dv_serial
@@ -99,19 +100,6 @@ clear
                         break;;
 esac
 done;;
-3) echo ""
-while true
-do
-clear
-                        ejecutar1=S
-                        case $ejecutar1 in
-                        [sS]* ) echo ""
-sh reinstalar_hblink.sh
-                        break;;
-                        [nN]* ) echo ""
-                        break;;
-esac
-done;;
 0) echo ""
 clear
 echo "\33[1;33m   ******************************"
@@ -124,4 +112,3 @@ clear
 exit;;	
 esac
 done
-
