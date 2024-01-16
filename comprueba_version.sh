@@ -11,6 +11,6 @@ version_actual=$(awk "NR==101" /home/pi/status.ini)
 if [ "$version_actual" = "$nueva_version" ];then
 echo "no hace nada"
 else
-cd /home/pi/BOOKWORM/qt
+cd /home/pi/IMAGEN-A111/qt
 ./qt_comprueba_version 
 fi

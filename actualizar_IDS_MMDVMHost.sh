@@ -51,5 +51,5 @@ echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**ACTUALIZADO"
 
                         cp DMRIds.dat /home/pi/YSF2DMR/
 
-                        cd /home/pi/BOOKWORM/qt/
+                        cd /home/pi/IMAGEN-A111/qt/
                         ./qt_actualizando_ids

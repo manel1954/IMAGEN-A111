@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/BOOKWORM; sh actualiza_imagen.sh'
-Icon=/home/pi/BOOKWORM/ICO_ACTUALIZAR_IMAGEN.png
+Exec=sh -c 'cd /home/pi/IMAGEN-A111; sh actualiza_imagen.sh'
+Icon=/home/pi/IMAGEN-A111/ICO_ACTUALIZAR_IMAGEN.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

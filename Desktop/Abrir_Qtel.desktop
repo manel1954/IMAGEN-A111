@@ -2,7 +2,7 @@
 Encoding=UTF-8
 TryExec=lxterminal
 Exec=qtel
-Icon=/home/pi/BOOKWORM/ICO_QTEL.png
+Icon=/home/pi/IMAGEN-A111/ICO_QTEL.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

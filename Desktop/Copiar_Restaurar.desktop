@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 Terminal=true
-Exec=sh -c "cd /home/pi/BOOKWORM/qt;./qt_copiar_restaurar"
-Icon=/home/pi/BOOKWORM/ICO_COPIAR_RESTAURAR.png
+Exec=sh -c "cd /home/pi/IMAGEN-A111/qt;./qt_copiar_restaurar"
+Icon=/home/pi/IMAGEN-A111/ICO_COPIAR_RESTAURAR.png
 Type=Application
 Categories=GTK;Utility;TerminalEmulator;
 Name[en_US]=MMDVM Connect Screen

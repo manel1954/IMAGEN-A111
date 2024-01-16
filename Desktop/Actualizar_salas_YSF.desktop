@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/BOOKWORM/;sh actualizar_YSF.sh"
-Icon=/home/pi/BOOKWORM/ICO_ACTUALIZA_SALAS_YSF.png
+Exec=sh -c "cd /home/pi/IMAGEN-A111/;sh actualizar_YSF.sh"
+Icon=/home/pi/IMAGEN-A111/ICO_ACTUALIZA_SALAS_YSF.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

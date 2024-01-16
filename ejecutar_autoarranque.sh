@@ -11,7 +11,7 @@ sudo cp Abrir_autoarranques.desktop /home/pi/Desktop
 sudo chmod 777 /home/pi/Desktop/Abrir_autoarranques.desktop
 sudo rm /home/pi/Abrir_autoarranques.desktop
 
-cd /home/pi/BOOKWORM/qt
+cd /home/pi/IMAGEN-A111/qt
  ./qt_autoarranque
 
 

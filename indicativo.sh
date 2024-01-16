@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home/pi/BOOKWORM/; sudo ./qt_indicativo
+cd /home/pi/IMAGEN-A111/; sudo ./qt_indicativo

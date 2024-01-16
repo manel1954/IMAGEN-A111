@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/BOOKWORM/qt;./qt_apagar_imagen'
-Icon=/home/pi/BOOKWORM/ICO_APAGAR_IMAGEN.png
+Exec=sh -c 'cd /home/pi/IMAGEN-A111/qt;./qt_apagar_imagen'
+Icon=/home/pi/IMAGEN-A111/ICO_APAGAR_IMAGEN.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

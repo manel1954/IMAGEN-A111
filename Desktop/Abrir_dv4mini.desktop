@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/BOOKWORM; sudo sh ejecutar_dv4mini.sh'
-Icon=/home/pi/BOOKWORM/ICO_DV4MINI_OFF.png
+Exec=sh -c 'cd /home/pi/IMAGEN-A111; sudo sh ejecutar_dv4mini.sh'
+Icon=/home/pi/IMAGEN-A111/ICO_DV4MINI_OFF.png
 Type=Application
 StartupNotify=false
 Categories=Hamradio;System;Utility;

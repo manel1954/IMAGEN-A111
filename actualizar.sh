@@ -26,7 +26,7 @@ fi
 # path usuario
 usuario="/home/pi"
 usuario="$usuario"
-SCRIPTS_version="BOOKWORM"
+SCRIPTS_version="IMAGEN-A111"
 actualizacion=$(awk "NR==2" /home/pi/version-fecha-actualizacion)
 version="PI5_"
 version=$version$actualizacion
@@ -244,7 +244,7 @@ rm $usuario/RXF_DMRGATEWAY.desktop
 sudo chmod 777 -R $usuario/Desktop
 sleep 2
 
-sudo rm -R /home/pi/BOOKWORM/associacioader.com
-sudo rm /home/pi/BOOKWORM/Desktop/st-data
+sudo rm -R /home/pi/IMAGEN-A111/associacioader.com
+sudo rm /home/pi/IMAGEN-A111/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 

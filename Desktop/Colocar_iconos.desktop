@@ -2,9 +2,9 @@
 Version=1.0
 Type=Application
 Name=Recolocar ICONOS
-Exec=sh -c 'cd /home/pi/BOOKWORM; sh colocar_iconos.sh'
+Exec=sh -c 'cd /home/pi/IMAGEN-A111; sh colocar_iconos.sh'
 Comment=Rcolocar iconos
-Icon=/home/pi/BOOKWORM/ICO_ORGANIZAR_ICONOS.png
-Path=/home/pi/BOOKWORM
+Icon=/home/pi/IMAGEN-A111/ICO_ORGANIZAR_ICONOS.png
+Path=/home/pi/IMAGEN-A111
 Terminal=false
 StartupNotify=false

@@ -49,7 +49,7 @@ xterm -geometry 85x12+1215+296 -bg brown -fg white -fa ‘verdana’ -fs 9x -T C
 
 sleep 2
 cd /home/pi/MMDVMHost
-#/home/pi/BOOKWORM/./qt_info_ysf2dmr & sudo ./MMDVMFUSION MMDVMFUSION.ini
+#/home/pi/IMAGEN-A111/./qt_info_ysf2dmr & sudo ./MMDVMFUSION MMDVMFUSION.ini
 xterm -geometry 85x12+612+296 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
 
 cd /home/pi/Desktop

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/BOOKWORM/; sudo sh ejecutar_autoarranque.sh'
-Icon=/home/pi/BOOKWORM/ICO_AUTOARRANQUE.png
+Exec=sh -c 'cd /home/pi/IMAGEN-A111/; sudo sh ejecutar_autoarranque.sh'
+Icon=/home/pi/IMAGEN-A111/ICO_AUTOARRANQUE.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

@@ -56,7 +56,7 @@ sudo cp hblink-SAMPLE.cfg hblink.cfg
 sudo cp rules-SAMPLE.py rules.py
 
 #Autostart HBLink:
-sudo cp /home/pi/BOOKWORM/hblink.service /lib/systemd/system/
+sudo cp /home/pi/IMAGEN-A111/hblink.service /lib/systemd/system/
 
 sudo systemctl daemon-reload
 sudo systemctl enable hblink
@@ -68,7 +68,7 @@ sudo chmod +x playback.py
 sudo mkdir /var/log/hblink
 
 #Crear servicio para el parrot /lib/systemd/system/parrot.service 
-sudo cp /home/pi/BOOKWORM/parrot.service /lib/systemd/system/
+sudo cp /home/pi/IMAGEN-A111/parrot.service /lib/systemd/system/
 
 sudo systemctl enable parrot.service
 sudo systemctl start parrot.service
@@ -96,15 +96,15 @@ sudo cp config_SAMPLE.py config.py
 #sudo nano /opt/HBmonitor/config.py
 
 sleep 2
-sudo cp /home/pi/BOOKWORM/hblink.cfg /opt/HBlink3/
-sudo cp /home/pi/BOOKWORM/rules.py /opt/HBlink3/
-sudo cp /home/pi/BOOKWORM/playback.cfg /opt/HBlink3/
-sudo cp /home/pi/BOOKWORM/index_template.html /opt/HBmonitor/
-sudo cp /home/pi/BOOKWORM/config.py /opt/HBmonitor/
-sudo cp /home/pi/BOOKWORM/monitor.py /opt/HBmonitor/
-sudo cp /home/pi/BOOKWORM/bridge_table.html /opt/HBmonitor/templates/
-sudo cp /home/pi/BOOKWORM/hblink_table.html /opt/HBmonitor/templates/
-sudo cp /home/pi/BOOKWORM/lastheard.html /opt/HBmonitor/templates/
+sudo cp /home/pi/IMAGEN-A111/hblink.cfg /opt/HBlink3/
+sudo cp /home/pi/IMAGEN-A111/rules.py /opt/HBlink3/
+sudo cp /home/pi/IMAGEN-A111/playback.cfg /opt/HBlink3/
+sudo cp /home/pi/IMAGEN-A111/index_template.html /opt/HBmonitor/
+sudo cp /home/pi/IMAGEN-A111/config.py /opt/HBmonitor/
+sudo cp /home/pi/IMAGEN-A111/monitor.py /opt/HBmonitor/
+sudo cp /home/pi/IMAGEN-A111/bridge_table.html /opt/HBmonitor/templates/
+sudo cp /home/pi/IMAGEN-A111/hblink_table.html /opt/HBmonitor/templates/
+sudo cp /home/pi/IMAGEN-A111/lastheard.html /opt/HBmonitor/templates/
 
                         # modificacion 26-01-2022
                         #cd /home/pi/.local

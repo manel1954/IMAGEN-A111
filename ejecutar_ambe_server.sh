@@ -26,7 +26,7 @@ xterm -geometry 58x9+1481+665 -bg blue -fg white -fa ‘verdana’ -fs 9x -T CON
 
 cd /home/pi/Desktop
 sudo cp Abrir_ambe_server.desktop /home/pi
-sed -i "4c Exec=sh -c 'cd /home/pi/BOOKWORM/; sudo sh ejecutar_ambe_server.sh'" /home/pi/Abrir_ambe_server.desktop
+sed -i "4c Exec=sh -c 'cd /home/pi/IMAGEN-A111/; sudo sh ejecutar_ambe_server.sh'" /home/pi/Abrir_ambe_server.desktop
 sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_AMBE_OFF.png" /home/pi/Abrir_ambe_server.desktop
 # sed -i "10c Name[es_ES]=Abrir AMBE SERVER" /home/pi/Abrir_ambe_server.desktop
 sed -i "11c AMBE_SERVER=OFF" /home/pi/status.ini

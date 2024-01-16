@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/BOOKWORM/qt;./qt_notas_version"
-Icon=/home/pi/BOOKWORM/ICO_NOTAS_VERSION.png
+Exec=sh -c "cd /home/pi/IMAGEN-A111/qt;./qt_notas_version"
+Icon=/home/pi/IMAGEN-A111/ICO_NOTAS_VERSION.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

@@ -20,7 +20,7 @@ sudo systemctl restart nxdngateway.service
 sudo systemctl restart p25gateway.service
 
 
-#zenity --info --ok-label= --title=DVSWITCH --window-icon=/home/pi/BOOKWORM/ICONO_DVSWITCH_ON.png --width=400 --timeout=5 --text "\n\nDVSWITCH ACTIVADO"
+#zenity --info --ok-label= --title=DVSWITCH --window-icon=/home/pi/IMAGEN-A111/ICONO_DVSWITCH_ON.png --width=400 --timeout=5 --text "\n\nDVSWITCH ACTIVADO"
 sed -i "18c DVSWITCH=ON" /home/pi/status.ini
 
 	

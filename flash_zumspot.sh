@@ -102,7 +102,7 @@ read a
 
                         
 
-                        cp /home/pi/BOOKWORM/Config_zumspot.h /home/pi/MMDVM_HS/Config.h
+                        cp /home/pi/IMAGEN-A111/Config_zumspot.h /home/pi/MMDVM_HS/Config.h
                         make clean
                         make 
                         fi

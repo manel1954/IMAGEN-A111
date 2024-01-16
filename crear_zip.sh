@@ -159,6 +159,6 @@ sed -i "15c $reflector_dstar" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dv
 sudo cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
 cd /home/pi/.local/COPIA_SEGURIDAD
-sudo tar -zcvf Copia_BOOKWORM.zip Downloads
-sudo cp  Copia_BOOKWORM.zip /var/www/html/upload/files
-sudo Copia_BOOKWORM.zip
+sudo tar -zcvf Copia_IMAGEN-A111.zip Downloads
+sudo cp  Copia_IMAGEN-A111.zip /var/www/html/upload/files
+sudo Copia_IMAGEN-A111.zip

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/BOOKWORM/qt; ./qt_editor_dmr2ysf"
-Icon=/home/pi/BOOKWORM/ICO_EDITOR_ESPECIAL.png
+Exec=sh -c "cd /home/pi/IMAGEN-A111/qt; ./qt_editor_dmr2ysf"
+Icon=/home/pi/IMAGEN-A111/ICO_EDITOR_ESPECIAL.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
