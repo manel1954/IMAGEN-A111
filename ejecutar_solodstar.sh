@@ -73,11 +73,11 @@ sudo systemctl stop ircddbgatewayd.service
 # Ejecuta Solo D-STAR
 cd /home/pi/MMDVMHost
 #/home/pi/IMAGEN-A111/./qt_info_solodstar & sudo ircddbgateway -gui & sudo ./MMDVMDSTAR MMDVMDSTAR.ini
-xterm -geometry 88x17+1274+665 -bg black -fg green -fa ‘verdana’ -fs 9x -T CONSOLA_SOLO_DSTAR -e sudo ./MMDVMDSTAR MMDVMDSTAR.ini & sudo ircddbgateway -gui
+xterm -geometry 88x17+1274+665 -bg black -fg green -fa ‘verdana’ -fs 9x -T CONSOLA_SOLO_DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini & ircddbgateway -gui
 # Cierra el icono Abrir Solo Dstar si no hay conexión 
 cd /home/pi/Desktop
 sudo cp Abrir_solodstar.desktop /home/pi
-sed -i "6c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sudo sh ejecutar_solodstar.sh'" /home/pi/Abrir_solodstar.desktop
+sed -i "6c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sh ejecutar_solodstar.sh'" /home/pi/Abrir_solodstar.desktop
 sed -i "7c Icon=/home/pi/$SCRIPTS_version/ICO_SOLODSTAR_OFF.png" /home/pi/Abrir_solodstar.desktop
 #sed -i "11c Name[es_ES]=Abrir solo DSTAR" /home/pi/Abrir_solodstar.desktop
 sed -i "13c SOLODSTAR=OFF" /home/pi/status.ini
@@ -89,7 +89,7 @@ sudo rm /home/pi/Abrir_solodstar.desktop
 cd /home/pi/Desktop
 sudo cp Abrir_ircDDB.desktop /home/pi
 sleep 1
-sed -i "4cExec=sh -c 'cd /home/pi/$SCRIPTS_version; sudo sh ejecutar_ircDDB.sh'" /home/pi/Abrir_ircDDB.desktop
+sed -i "4cExec=sh -c 'cd /home/pi/$SCRIPTS_version; sh ejecutar_ircDDB.sh'" /home/pi/Abrir_ircDDB.desktop
 sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_IRCDDB_OFF.png" /home/pi/Abrir_ircDDB.desktop
 #sed -i "10c Name[es_ES]=Abrir ircDDB" /home/pi/Abrir_ircDDB.desktop
 sed -i "1c D-STAR=OFF" /home/pi/status.ini
