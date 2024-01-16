@@ -29,5 +29,5 @@
         usuario="/home/pi"
         SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
         cd $usuario/$SCRIPTS_version/Desktop
-        cp * $usuario/Desktop
+        cp *.desktop $usuario/Desktop
         sudo chmod 777 -R $usuario/Desktop
