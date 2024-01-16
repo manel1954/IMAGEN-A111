@@ -74,7 +74,7 @@ clear
                         [sS]* ) echo ""
                         echo ">>>>>>>>> ACTUALIZANDO >>>>>>>>"
                         sudo rm -r /home/pi/IMAGEN-A111/DV4MINI/
-                        cd /home/pi/IMAGE-A111
+                        cd /home/pi/IMAGEN-A111
                         git clone http://github.com/ea3eiz/DV4MINI
                         sudo rm -r /home/pi/dv4mini
                         sudo rm /usr/bin/dv_serial
