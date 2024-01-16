@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/IMAGEN-A111;sudo sh ejecutar_NXDN.sh'
+Exec=sh -c 'cd /home/pi/IMAGEN-A111; sh ejecutar_NXDN.sh'
 Icon=/home/pi/IMAGEN-A111/ICO_NXDN_OFF.png
 Type=Application
 StartupNotify=false
