@@ -22,7 +22,7 @@ sudo cp Abrir_ircDDB.desktop /home/pi/Desktop
 sleep 1
 sudo rm /home/pi/Abrir_ircDDB.desktop
 
-ircddbgateway
+sudo ircddbgateway
 
 
 
