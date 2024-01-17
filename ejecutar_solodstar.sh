@@ -43,7 +43,7 @@ sed -i "5c $frecuencia" /home/pi/INFO_RXF
 cd /home/pi/Desktop
 
 sudo cp Abrir_solodstar.desktop /home/pi
-sed -i "6c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sudo sh cerrar_solodstar.sh'" /home/pi/Abrir_solodstar.desktop
+sed -i "6c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sh cerrar_solodstar.sh'" /home/pi/Abrir_solodstar.desktop
 sed -i "7c Icon=/home/pi/$SCRIPTS_version/ICO_SOLODSTAR_ON.png" /home/pi/Abrir_solodstar.desktop
 #sed -i "11c Name[es_ES]=Cerrar solo DSTAR" /home/pi/Abrir_solodstar.desktop
 sed -i "13c SOLODSTAR=ON" /home/pi/status.ini
@@ -73,7 +73,7 @@ sudo systemctl stop ircddbgatewayd.service
 # Ejecuta Solo D-STAR
 cd /home/pi/MMDVMHost
 #/home/pi/IMAGEN-A111/./qt_info_solodstar & sudo ircddbgateway -gui & sudo ./MMDVMDSTAR MMDVMDSTAR.ini
-xterm -geometry 88x17+1274+665 -bg black -fg green -fa ‘verdana’ -fs 9x -T CONSOLA_SOLO_DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini & ircddbgateway -gui
+xterm -geometry 88x17+1274+665 -bg black -fg green -fa ‘verdana’ -fs 9x -T CONSOLA_SOLO_DSTAR -e ./MMDVMDSTAR MMDVMDSTAR.ini & ircddbgateway
 # Cierra el icono Abrir Solo Dstar si no hay conexión 
 cd /home/pi/Desktop
 sudo cp Abrir_solodstar.desktop /home/pi
