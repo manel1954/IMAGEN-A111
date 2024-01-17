@@ -10,7 +10,7 @@ CIAN="\033[1;36m"
 GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 
-ircddbgateway
+ircddbgateway -gui
 
 cd /home/pi/Desktop
 sudo cp Abrir_ircDDB.desktop /home/pi
