@@ -42,7 +42,7 @@ sudo systemctl stop ircddbgateway
 sudo systemctl restart mmdvm_bridge.service
 sleep 2
 
-ircddbgateway
+sudo ircddbgateway -gui
 
 else
 echo "${VERDE}"
@@ -61,7 +61,7 @@ sudo cp Abrir_ircDDB.desktop /home/pi/Desktop
 sleep 1
 sudo rm /home/pi/Abrir_ircDDB.desktop
 
-ircddbgateway
+sudo ircddbgateway -gui
 
 fi
 
