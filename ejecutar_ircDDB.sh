@@ -24,6 +24,6 @@ sleep 1
 sudo rm /home/pi/Abrir_ircDDB.desktop
 
 
-sudo ircddbgateway -gui
+ircddbgateway -gui
 
 
