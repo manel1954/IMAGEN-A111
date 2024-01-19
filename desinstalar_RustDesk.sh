@@ -17,9 +17,9 @@ MARRON="\33[38;5;138m"
                         echo "***********************************************************************"
                         echo "***********************************************************************"
                         sleep 2                    
-                        sed -i "12c ANYDESK=OFF" /home/pi/info.ini                        
+                        sed -i "30c RustDesk=OFF" /home/pi/info.ini                        
                         sleep 3
                         sudo apt remove rustdesk
- anydesk
+ 
                         
            

@@ -40,6 +40,6 @@ MARRON="\33[38;5;138m"
                         echo "                  SE HA INSTALADO RustDesk CON EXITO                    "
                         echo "***********************************************************************" 
                         echo "***********************************************************************"                      
-                        sed -i "12c RustDesk=ON" /home/pi/info.ini                        
+                        sed -i "30c RustDesk=ON" /home/pi/info.ini                        
                         sleep 3
                         fi
