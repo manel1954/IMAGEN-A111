@@ -8,8 +8,7 @@ AMARILLO="\033[1;33m"
 CIAN="\033[1;36m"
 GRIS="\033[0m"
 MARRON="\33[38;5;138m"
-                        sudo apt purge anydesk 
-                        sudo rm -R .anydesk   
+                        sudo apt purge anydesk   
                         clear             
                         echo "${VERDE}"
                         echo "***********************************************************************"
