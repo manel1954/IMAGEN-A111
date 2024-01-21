@@ -27,7 +27,7 @@ echo " ************************************************"
 sleep 2
 
 
-xterm -geometry 85x13+1215+626 -bg black -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_SVXLINK -e sudo svxlink
+xterm -geometry 85x13+1215+626 -bg black -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_SVXLINK -e svxlink
 
 
 cd /home/pi/Desktop
