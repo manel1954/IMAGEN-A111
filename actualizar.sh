@@ -1,5 +1,5 @@
 ﻿#!/bin/bash
-
+sudo chmod 777 -R /var/log/
 dvswitch=$(awk "NR==18" /home/pi/status.ini)
 if [ "$dvswitch" = 'DVSWITCH=OFF' ];then
 sudo systemctl stop ysfgateway.service

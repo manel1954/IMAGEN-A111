@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo killall -9 MMDVMDSTAR
-sudo chmod 777 -R /var/log
+sudo chmod 777 -R /var/log/
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
 #Colores
 ROJO="\033[1;31m"
