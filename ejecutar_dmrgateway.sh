@@ -58,12 +58,12 @@ echo "${GRIS}"
 
 cd /home/pi/DMRGateway
 
-xterm -geometry 85x12+1215+296 -bg white -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_DMRGateway -e sudo ./DMRGateway DMRGateway.ini &
+xterm -geometry 85x12+1215+296 -bg white -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_DMRGateway -e ./DMRGateway DMRGateway.ini &
 
 sleep 2
 
 cd /home/pi/MMDVMHost
-xterm -geometry 80x12+648+296 -bg white -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMRGATEWAY -e sudo ./MMDVMDMRGATEWAY MMDVMDMRGateway.ini 
+xterm -geometry 80x12+648+296 -bg white -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMRGATEWAY -e ./MMDVMDMRGATEWAY MMDVMDMRGateway.ini 
 
 
 # Cierra el icono ejecutar_dmrgateway si no hay conexión
