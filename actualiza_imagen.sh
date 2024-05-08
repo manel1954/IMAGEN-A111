@@ -15,6 +15,8 @@ NEGRO="\e[30m"
                         git pull                                                             
                         mv qt_* /home/pi/IMAGEN-A111/qt
                         chmod 777 -R /home/pi/IMAGEN-A111/qt
+
+                        sudo rm qt_*
                        
                         cd /home/pi/IMAGEN-A111/qt/
                         ./qt_actualizando_imagen
