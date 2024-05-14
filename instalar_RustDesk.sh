@@ -9,7 +9,9 @@ CIAN="\033[1;36m"
 GRIS="\033[0m"
 MARRON="\33[38;5;138m"
                         cd /home/pi/Downloads
-                        sudo apt install ./rustdesk-1.2.3-aarch64.deb
+                        wget https://github.com/rustdesk/rustdesk/releases/download/1.2.3-2/rustdesk-1.2.3-2-aarch64.deb
+                        sudo dpkg -i rustdesk-1.2.3-2-aarch64.deb
+                        sudo apt -f install
                         clear
                         echo "\v\v\v\v\v\v"
                         echo "${VERDE}"
@@ -18,6 +20,7 @@ MARRON="\33[38;5;138m"
                         echo "                  SE HA INSTALADO RustDesk CON EXITO                    "
                         echo "***********************************************************************" 
                         echo "***********************************************************************"                      
-                        sed -i "30c RustDesk=ON" /home/pi/info.ini                        
+                        sed -i "15c RustDesk=ON" /home/orangepi/info.ini
+                        sudo rm /home/pi/Downloads/rustdesk-1.2.3-2-aarch64.deb             
                         sleep 3
                         
