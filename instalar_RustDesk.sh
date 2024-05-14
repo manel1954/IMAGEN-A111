@@ -20,7 +20,7 @@ MARRON="\33[38;5;138m"
                         echo "                  SE HA INSTALADO RustDesk CON EXITO                    "
                         echo "***********************************************************************" 
                         echo "***********************************************************************"                      
-                        sed -i "15c RustDesk=ON" /home/orangepi/info.ini
+                        sed -i "15c RustDesk=ON" /home/pi/info.ini
                         sudo rm /home/pi/Downloads/rustdesk-1.2.3-2-aarch64.deb             
                         sleep 3
                         
