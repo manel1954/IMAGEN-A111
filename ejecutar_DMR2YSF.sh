@@ -53,8 +53,6 @@ cd /home/pi/YSFClients/YSFGateway
 
 xterm -geometry 85x12+10+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_YSFGateway -e ./YSFGateway YSFGateway.ini
 
-//sudo ./YSFGateway YSFGateway.ini
-
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2YSF.desktop /home/pi
 sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;sudo sh ejecutar_DMR2YSF.sh'" /home/pi/Abrir_DMR2YSF.desktop
